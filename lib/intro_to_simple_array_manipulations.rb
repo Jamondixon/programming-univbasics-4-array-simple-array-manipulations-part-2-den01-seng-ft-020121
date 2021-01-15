@@ -6,6 +6,10 @@ end
 
 def using_insert(array,element)
   array == ["a","d","f"]
-  element == "b"
   array.insert("b")
+end
+
+def using_uniq(haircuts)
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  haircuts.uniq
 end
