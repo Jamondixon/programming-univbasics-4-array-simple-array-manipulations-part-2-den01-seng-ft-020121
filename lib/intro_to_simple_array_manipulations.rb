@@ -6,5 +6,5 @@ end
 
 def using_insert(array, element)
   array = ["a","d","f"]
-  array.insert(b,e)
+  array.insert("b","e")
 end
