@@ -6,7 +6,7 @@ end
 
 def using_insert(array,element)
   array = ["a","d","f"]
-  new_array = array.insert("b")
+  array.insert("b")
 end
 
 def using_uniq(haircuts)
