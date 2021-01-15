@@ -9,14 +9,6 @@ def using_insert(array,element)
   array.insert("b")
 end
 
-def using_uniq(haircuts)
-  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  haircuts.uniq
-end
 
-def using_flatten(instruments)
-  instruments = ["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"]
-  instruments.flatten
-end
 
 def using_delete
