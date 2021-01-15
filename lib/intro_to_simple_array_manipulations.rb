@@ -4,8 +4,8 @@ def using_concat(first_array, second_array)
   first_array.concat(second_array)
 end
 
-def using_insert(list_of_programming_languages, new_language)
-  new_array == list_of_programming_languages.insert(new_language)
+def using_insert(array, element)
+  array.insert(element)
 end
 
 def using_uniq(haircuts)
