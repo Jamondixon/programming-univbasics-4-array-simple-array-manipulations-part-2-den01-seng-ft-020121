@@ -11,7 +11,7 @@ end
 
 def using_uniq(haircuts)
   haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  unique haircuts = haircuts.uniq
+  haircuts.uniq
 end
 
 def using_flatten(instruments)
