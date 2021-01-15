@@ -9,3 +9,4 @@ def using_insert(array)
   array.insert("b")
 end
 array
+end
