@@ -8,5 +8,4 @@ def using_insert(array)
   array = ["a","d","f"]
   array.insert("b")
 end
-array
-end
+
