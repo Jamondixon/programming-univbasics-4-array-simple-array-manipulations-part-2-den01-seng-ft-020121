@@ -19,3 +19,8 @@ def using_flatten(instruments)
   instruments = ["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"]
   instruments.flatten
 end
+
+def using_delete(instructors, steven)
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  .delete(steven)
+end
