@@ -20,9 +20,13 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def using_delete(instructors, steven)
+def using_delete(instructors, unwanted_instructor)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.delete("Steven")
+  unwanted_instructor = "Steven"
+  instructors.delete(unwanted_instructor)
 end
 
-def delete_at
+def delete_at(famous_robots, 2)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  famous_robots.delete_at(2)
+end
