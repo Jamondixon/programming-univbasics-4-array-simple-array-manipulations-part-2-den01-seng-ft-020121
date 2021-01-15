@@ -6,5 +6,6 @@ end
 
 def using_insert(array,element)
   array == ["a","d","f"]
+  element == "b"
   array.insert("b")
 end
