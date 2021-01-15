@@ -9,3 +9,13 @@ def using_insert(list_of_programming_languages, new_language)
   new_language = ["Python"]
   list_of_programming_languages.insert(new_language)
 end
+
+def using_uniq(haircuts)
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  haircuts.uniq
+end
+
+def using_flatten(instruments)
+  instruments = ["Saxophone", "Piano", "Trumpet", "Violin", "Drums", "Flute"]
+  instruments.flatten
+end
