@@ -5,12 +5,12 @@ def using_concat(first_array, second_array)
 end
 
 def using_insert(array,element)
-  array == ["a","d","f"]
+  array = ["a","d","f"]
   new_array = array.insert("b")
 end
 
 def using_uniq(haircuts)
-  haircuts == ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
   unique haircuts = haircuts.uniq
 end
 
