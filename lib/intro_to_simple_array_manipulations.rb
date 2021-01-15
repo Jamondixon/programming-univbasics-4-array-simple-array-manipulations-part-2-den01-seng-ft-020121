@@ -26,7 +26,8 @@ def using_delete(instructors, unwanted_instructor)
   instructors.delete(unwanted_instructor)
 end
 
-def delete_at(famous_robots, 2)
+def delete_at(famous_robots, integer)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  famous_robots.delete_at(2)
+  integer = 2
+  famous_robots.delete_at(integer)
 end
