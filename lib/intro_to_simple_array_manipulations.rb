@@ -9,4 +9,3 @@ def using_insert(list_of_programming_languages, new_language)
   new_language = ["Python"]
   list_of_programming_languages.insert(new_language)
 end
-
