@@ -5,7 +5,7 @@ def using_concat(first_array, second_array)
 end
 
 def using_insert(array, element)
-  array.insert(element)
+  new_array = array.insert(element)
 end
 
 def using_uniq(haircuts)
