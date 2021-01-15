@@ -6,15 +6,17 @@ end
 
 def using_insert(array,element)
   array == ["a","d","f"]
-  array.insert("b")
+  new_array = array.insert("b")
 end
 
 def using_uniq(haircuts)
-  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  haircuts.uniq
+  haircuts == ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  unique haircuts = haircuts.uniq
 end
 
 def using_flatten(instruments)
   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  instruments.flatten
+  flattened_instruments = instruments.flatten
 end
+
+def using_delete
